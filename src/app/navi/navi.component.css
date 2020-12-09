@@ -1,9 +1,10 @@
-ul{
-  list-style-type: none;
+
+.navi ul{
   margin: 0;
   padding: 2%;
   overflow: hidden;
   position: fixed;
+  list-style-type: none;
 }
 
 .page ul {
@@ -15,21 +16,33 @@ ul{
   left: 83%;
 }
 
+li {
+  padding-top: 50px;
+}
+
 .page li{
   float: left;
-  padding:10px 50px;
+  padding-right:60px;
 }
 
 .user li{
-  float: right;
-  padding:10px 10px;
+  float: left;
+  padding-right: 15px;
 }
 
 li a{
   display: inline;
   color: brown;
+  font-size: 17px;
   text-align: center;
   text-decoration: none;
+}
+
+.logo img{
+  position: fixed;
+  bottom: 75%;
+  width: 290px;
+  height: auto;
 }
 
 /* Change the link color to #111 (black) on hover */
