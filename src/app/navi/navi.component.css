@@ -1,19 +1,32 @@
-ul {
+ul{
   list-style-type: none;
   margin: 0;
   padding: 2%;
   overflow: hidden;
   position: fixed;
+}
+
+.page ul {
   left: 50%;
   transform: translate(-50%);
 }
 
-li{
+.user ul {
+  left: 83%;
+}
+
+.page li{
   float: left;
   padding:10px 50px;
 }
 
+.user li{
+  float: right;
+  padding:10px 10px;
+}
+
 li a{
+  display: inline;
   color: brown;
   text-align: center;
   text-decoration: none;
