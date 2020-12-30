@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-page-list',
@@ -7,12 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PageListComponent implements OnInit {
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit(): void {
   }
 
-  readonly pages : string[] =
-    ['About Us', 'Menu', 'Board', 'Contract'];
-
-}
+  readonly pages =
+    [
+      {name: 'About-us', url: '/about-us'},
+      {name: 'Menu', url: '/menu'},
+      {name: 'Board', url: '/board'},
+      {name: 'Contract', url: '/contract'}
+    ];
+};

@@ -1,1 +1,5 @@
-<li *ngFor="let page of pages"><a href="" >{{page}}</a></li>
+<li *ngFor="let page of pages">
+  <a [routerLink] = "page.url">{{page.name}}</a> <!-- []="", 좌항에 우항을 넣겠다 -->
+</li>
+
+

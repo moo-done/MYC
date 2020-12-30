@@ -4,11 +4,14 @@ import {CommonModule} from '@angular/common';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { IntroComponent } from './intro/intro.component';
+import { IntroComponent } from './page/intro/intro.component';
 import { NaviComponent } from './navi/navi.component';
 import { PageListComponent } from './navi/page-list/page-list.component';
 import { UserPageListComponent } from './navi/user-page-list/user-page-list.component';
-import { AboutUsComponent } from './about-us/about-us.component';
+import { AboutUsComponent } from './page/about-us/about-us.component';
+import { MenuComponent } from './page/menu/menu.component';
+import { BoardComponent } from './page/board/board.component';
+import { ContractComponent } from './page/contract/contract.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +21,9 @@ import { AboutUsComponent } from './about-us/about-us.component';
     PageListComponent,
     UserPageListComponent,
     AboutUsComponent,
+    MenuComponent,
+    BoardComponent,
+    ContractComponent,
   ],
   imports: [
     BrowserModule,
