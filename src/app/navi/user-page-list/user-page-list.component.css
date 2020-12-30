@@ -1,17 +1,17 @@
+li {
+  padding-top: 50px;
+
+  float: right;
+  padding-right: 7px;
+  padding-left: 7px;
+}
+
 li a{
   display: inline;
   color: brown;
   font-size: 18px;
   text-align: center;
   text-decoration: none;
-}
-
-li {
-  padding-top: 50px;
-
-  float: left;
-  padding-right:30px;
-  padding-left:30px;
 }
 
 li :hover {

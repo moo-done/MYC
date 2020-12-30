@@ -15,37 +15,9 @@
   left: 83%;
 }
 
-li {
-  padding-top: 50px;
-}
-
-.page li{
-  float: left;
-  padding-right:30px;
-  padding-left:30px;
-}
-
-.user li{
-  float: right;
-  padding-right: 7px;
-  padding-left: 7px;
-}
-
-li a{
-  display: inline;
-  color: brown;
-  font-size: 18px;
-  text-align: center;
-  text-decoration: none;
-}
-
 .logo img{
   position: fixed;
   bottom: 75%;
   width: 300px;
   height: auto;
-}
-
-li :hover {
-  color: crimson;
 }
