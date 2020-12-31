@@ -1,18 +1,20 @@
-<div class="list">
+<div class="full_navi">
+
   <div class="logo">
     <img src="././assets/introImg/logo.png">
   </div>
 
-  <div class="page navi">
-    <span> <!--ul? span?-->
+  <div class="navi">
+
+    <div class="page_navi"> <!--ul? span? -> 안에 블락 요소가 들어갈 것이므로 div나 ul, ul에는 li만이 자식으로 올 수 있으므로 div가 맞다-->
       <app-page-list></app-page-list>
-    </span>
+    </div>
+
+    <div class="user_navi">
+      <app-user-page-list></app-user-page-list>
+    </div>
+
   </div>
 
-  <div class="user navi">
-    <span>
-      <app-user-page-list></app-user-page-list>
-    </span>
-  </div>
 </div>
 

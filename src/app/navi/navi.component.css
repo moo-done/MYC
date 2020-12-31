@@ -1,23 +1,39 @@
-.navi span{
-  margin: 0;
-  padding: 2%;
-  overflow: visible; /*넘쳐도 보이게*/
+.full_navi {
   position: fixed;
-  list-style-type: none;
 }
 
-.page span {
-  left: 50%;
-  transform: translate(-50%);
-}
-
-.user span{
-  left: 83%;
+.logo{
+  display: inline;
+  position: absolute;
+  left: 5%;
 }
 
 .logo img{
-  position: fixed;
-  bottom: 75%;
-  width: 300px;
+  width: 40%;
   height: auto;
 }
+
+.navi {
+  position: relative;
+  left:20%;
+  display: inline;
+  overflow: visible;
+  list-style-type: none;
+}
+
+.page_navi {
+  display: inline;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  width: 33%;
+}
+
+.user_navi {
+  float: right;
+  display: inline;
+  position: relative;
+  left: 99%;
+}
+
+

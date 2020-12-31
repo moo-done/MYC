@@ -1,4 +1,4 @@
-li {
+span {
   padding-top: 50px;
 
   float: right;
@@ -6,7 +6,7 @@ li {
   padding-left: 7px;
 }
 
-li a{
+span a{
   display: inline;
   color: brown;
   font-size: 18px;
@@ -14,6 +14,6 @@ li a{
   text-decoration: none;
 }
 
-li :hover {
+span :hover {
   color: crimson;
 }

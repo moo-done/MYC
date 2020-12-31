@@ -30,7 +30,7 @@
 }
 
 
-li a{
+span a{
   display: inline;
   color: brown;
   font-size: 18px;
@@ -39,7 +39,7 @@ li a{
 }
 
 
-li {
+span {
   padding-top: 50px;
 
   float: left;
@@ -47,6 +47,6 @@ li {
   padding-left:30px;
 }
 
-li :hover {
+span :hover {
   color: crimson;
 }
