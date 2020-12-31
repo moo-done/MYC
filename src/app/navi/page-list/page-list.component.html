@@ -1,5 +1,24 @@
-<li *ngFor="let page of pages">
-  <a [routerLink] = "page.url">{{page.name}}</a> <!-- []="", 좌항에 우항을 넣겠다 -->
-</li>
+<div class="page_list" *ngFor="let page of pages">
 
+  <li>
+    <a [routerLink]="page.url" *ngIf="page.name != 'Menu'; else otherCase">
+      {{page.name}}
+    </a>
+  </li>
+
+  <ng-template #otherCase>
+
+    <div class="dropdown">
+      <div class="dropbtn">{{page.name}}</div>
+      <div class="dropdown-content">
+        <a href="#">Link1</a>
+        <a href="#">Link2</a>
+        <a href="#">Link3</a>
+      </div>
+    </div>
+
+
+  </ng-template>
+
+</div>
 

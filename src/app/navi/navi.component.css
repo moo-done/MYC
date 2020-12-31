@@ -1,17 +1,17 @@
-.navi ul{
+.navi span{
   margin: 0;
   padding: 2%;
-  overflow: hidden;
+  overflow: visible; /*넘쳐도 보이게*/
   position: fixed;
   list-style-type: none;
 }
 
-.page ul {
+.page span {
   left: 50%;
   transform: translate(-50%);
 }
 
-.user ul {
+.user span{
   left: 83%;
 }
 
