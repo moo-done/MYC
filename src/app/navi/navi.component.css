@@ -1,39 +1,40 @@
-.full_navi {
+.fixed{
   position: fixed;
+  height: 250px;
+  width: 1400px;
 }
-
-.logo{
-  display: inline;
-  position: absolute;
-  left: 5%;
+.logo{ /*로고 이미지는 고정값으로 줘도 화면 축소 시 그대로 유지되는 듯? 네이버도 그럼*/
+  width: 300px;
+  height: 250px;
+  display: inline-block;
+  float:left;
 }
-
-.logo img{
-  width: 40%;
-  height: auto;
+img{
+  width: 300px;
+  height: 250px;
 }
+.page_navi {
+  display: inline-block;
 
-.navi {
   position: relative;
-  left:20%;
-  display: inline;
+  top:20%;
+  left:10%;
+
   overflow: visible;
   list-style-type: none;
 }
 
-.page_navi {
-  display: inline;
-  position: relative;
-  left: 50%;
-  transform: translate(-50%);
-  width: 33%;
-}
-
 .user_navi {
-  float: right;
-  display: inline;
+  width:24%;
+
   position: relative;
-  left: 99%;
+  top:20%;
+
+  display: inline-block;
+  float:right;
+
+  overflow: visible;
+  list-style-type: none;
 }
 
 

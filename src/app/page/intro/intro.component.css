@@ -1,5 +1,21 @@
-.intro img {
+.intro_img img {
   display: block;
   max-width:100%;
   height: auto;
 }
+.instagram{
+  border: 2px solid blue;
+  width: 100%;
+  height: 600px;
+  position: relative;
+}
+.instagram_ment {
+  border: 2px solid green;
+  font-family: sans-serif;
+  position: absolute;
+  top:20%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
+/*instagram의 포지션을 relative로 주고 ment 포지션을 absolute로 주니까 div 멀쩡히 먹음 왜?*/

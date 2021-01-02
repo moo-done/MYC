@@ -7,6 +7,7 @@ span {
 }
 
 span a{
+  margin-right: 15px;
   display: inline;
   color: brown;
   font-size: 18px;

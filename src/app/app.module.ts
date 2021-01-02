@@ -12,6 +12,7 @@ import { AboutUsComponent } from './page/about-us/about-us.component';
 import { MenuComponent } from './page/menu/menu.component';
 import { BoardComponent } from './page/board/board.component';
 import { ContractComponent } from './page/contract/contract.component';
+import { InstagramPhotoComponent } from './page/intro/instagram-photo/instagram-photo.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { ContractComponent } from './page/contract/contract.component';
     MenuComponent,
     BoardComponent,
     ContractComponent,
+    InstagramPhotoComponent,
   ],
   imports: [
     BrowserModule,
