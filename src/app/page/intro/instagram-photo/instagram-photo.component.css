@@ -1,0 +1,23 @@
+.first_line{
+  width: 75%;
+  position: absolute;
+  top:30%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+img{
+  width: 19%;
+}
+span{
+  margin-right: 0.5%;
+  margin-left: 0.5%;
+}
+.second_line{
+  width: 75%;
+  position: absolute;
+  top:53%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+
