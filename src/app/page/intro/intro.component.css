@@ -1,19 +1,51 @@
+.intro_page{
+  width: 100%;
+  height: 7000px;
+}
+
 .intro_img img {
   display: block;
   max-width:100%;
   height: auto;
 }
 .instagram{
+  border: 2px solid red;
   width: 100%;
-  height: 1000px;
-  position: relative;
+  height: 8%;
+}
+.ment_photo{
+  width: 75%;
+  height: 80%;
+
+  border: 2px solid blue;
+
+  /*margin-top: 20%;
+  margin-left: 50%;
+
+  transform: translate(-50%, -50%);
+*/
 }
 .instagram_ment {
+
+  /*margin-left: 50%;
+  transform: translate(-50%, -50%);*/
+
+  border: 2px solid purple;
+
+  z-index: 10;
+
   font-family: Arial;
-  position: absolute;
-  top:13%;
+/*  position: absolute;
+  top: 15%;
   left:50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);*/
+}
+.instagram_photo{
+  width: 100%;
+/*  position: relative;
+  top:15%;
+  left:50%;
+  transform: translate(-50%,-50%);*/
 }
 
 /*instagram의 포지션을 relative로 주고 ment 포지션을 absolute로 주니까 div 멀쩡히 먹음, 왜?*/
